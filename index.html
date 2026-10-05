@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Diego Seijas · Desarrollador Full Stack</title>
-  <meta name="description" content="Portafolio de Diego Seijas (NotSeijas): desarrollo web full stack con Next.js, Prisma y sistemas IoT. Lima, Perú.">
+  <title>Diego Seijas · Desarrollador Frontend</title>
+  <meta name="description" content="Portafolio de Diego Seijas (NotSeijas): desarrollador frontend con Angular, Vue y React, y sistemas full stack. Lima, Perú.">
   <meta name="theme-color" content="#0b0d12">
-  <meta property="og:title" content="Diego Seijas · Desarrollador Full Stack">
-  <meta property="og:description" content="Sistemas web reales: inventario, facturación electrónica e IoT.">
+  <meta property="og:title" content="Diego Seijas · Desarrollador Frontend">
+  <meta property="og:description" content="Interfaces web, sistemas de inventario y facturación, y cobros con QR.">
   <meta property="og:type" content="website">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%236366f1'/><text x='50' y='68' font-size='56' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='white'>D</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,6 +26,7 @@
     <a href="#inicio" class="brand" aria-label="Inicio"><span class="brand-mark">D</span><span class="brand-name">Diego Seijas</span></a>
     <nav class="links" id="links" aria-label="Principal">
       <a href="#sobre-mi">Sobre mí</a>
+      <a href="#experiencia">Experiencia</a>
       <a href="#proyectos">Proyectos</a>
       <a href="#stack">Stack</a>
       <a href="#contacto">Contacto</a>
@@ -46,22 +47,22 @@
     <section class="hero" id="inicio">
       <div class="wrap hero-grid">
         <div class="hero-copy reveal">
-          <p class="eyebrow"><span class="dot"></span> Disponible para prácticas y proyectos</p>
-          <h1>Hola, soy <span class="grad">Diego Seijas</span>.<br>Construyo software que se usa de verdad.</h1>
-          <p class="lead">Desarrollador full stack en Lima, Perú. Diseño y programo sistemas web completos, desde la base de datos hasta la interfaz, y trabajo también con dispositivos IoT.</p>
+          <p class="eyebrow"><span class="dot"></span> Disponible para nuevos proyectos</p>
+          <h1>Hola, soy <span class="grad">Diego Seijas</span>.<br>Desarrollador Frontend que también entrega sistemas completos.</h1>
+          <p class="lead">Estudiante de Ingeniería de Software (9.º ciclo, UPC) con más de un año construyendo interfaces web con Angular, Vue y React, y APIs con NestJS, .NET y Prisma. Vivo en Lima, Perú.</p>
           <div class="cta">
             <a class="btn primary" href="#proyectos">Ver proyectos
               <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="btn ghost" href="https://github.com/NotSeijas" target="_blank" rel="noopener">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a10.9 10.9 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
-              GitHub
+            <a class="btn ghost" href="Diego_Seijas_CV.pdf" download>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></svg>
+              Descargar CV
             </a>
           </div>
           <ul class="stats">
-            <li><strong data-count="2">0</strong><span>sistemas en producción o en desarrollo activo</span></li>
-            <li><strong>Full&nbsp;stack</strong><span>web, API y base de datos</span></li>
-            <li><strong>IoT</strong><span>edge computing y trazabilidad</span></li>
+            <li><strong data-count="10000" data-suffix="+">0</strong><span>unidades controladas con el sistema de inventario en 4 meses</span></li>
+            <li><strong data-count="40" data-suffix="+">0</strong><span>campañas gestionadas en Meta Ads</span></li>
+            <li><strong data-count="7000" data-suffix="+">0</strong><span>seguidores logrados desde cero</span></li>
           </ul>
         </div>
 
@@ -70,11 +71,11 @@
             <div class="term-bar"><i></i><i></i><i></i><span>notseijas.ts</span></div>
 <pre><code><span class="c">// quién soy, en código</span>
 <span class="k">const</span> <span class="v">diego</span> = {
-  <span class="p">rol</span>: <span class="s">"Full Stack Developer"</span>,
+  <span class="p">rol</span>: <span class="s">"Frontend Developer"</span>,
   <span class="p">ciudad</span>: <span class="s">"Lima, Perú"</span>,
-  <span class="p">stack</span>: [<span class="s">"Next.js"</span>, <span class="s">"Prisma"</span>, <span class="s">"TypeScript"</span>],
-  <span class="p">también</span>: [<span class="s">"IoT"</span>, <span class="s">"Edge"</span>, <span class="s">"APIs"</span>],
-  <span class="p">aprendiendo</span>: <span class="k">true</span>,
+  <span class="p">front</span>: [<span class="s">"Angular"</span>, <span class="s">"Vue"</span>, <span class="s">"React"</span>],
+  <span class="p">back</span>: [<span class="s">"NestJS"</span>, <span class="s">".NET"</span>, <span class="s">"Prisma"</span>],
+  <span class="p">estudia</span>: <span class="s">"Ing. de Software · UPC"</span>,
   <span class="p">disponible</span>: <span class="k">true</span>,
 };<span class="cursor"></span></code></pre>
           </div>
@@ -87,18 +88,88 @@
       <div class="wrap about">
         <div class="section-head reveal">
           <p class="kicker">Sobre mí</p>
-          <h2>Me gusta resolver problemas reales con código limpio.</h2>
+          <h2>Interfaces cuidadas y sistemas que el negocio sí usa.</h2>
         </div>
         <div class="about-body reveal">
-          <p>Estudio en la <strong>UPC</strong> y desarrollo sistemas para negocios reales: manejo de inventario, facturación electrónica y monitoreo de maquinaria con IoT. Prefiero entregar algo que funcione y se pueda mantener antes que algo que solo se vea bien en una demo.</p>
-          <p>Me muevo cómodo en todo el ciclo: modelar datos, construir la API, cuidar la interfaz y dejar el sistema respaldado y documentado.</p>
+          <p>Soy <strong>Desarrollador Frontend</strong> y estudiante de <strong>Ingeniería de Software en la UPC</strong> (9.º ciclo). Construyo interfaces responsivas con HTML, CSS, JavaScript, Angular y Vue.js, consumo APIs REST y despliego en Vercel y GitHub Pages.</p>
+          <p>Además de la interfaz, he diseñado sistemas completos: inventario y facturación, y una API de cobros con pagos por QR (Yape) confirmados por webhook. Soy analítico, organizado y me gusta cuidar los detalles.</p>
           <div class="pills">
-            <span>Orientado a producto</span>
-            <span>Código mantenible</span>
-            <span>Trabajo en equipo</span>
-            <span>Aprendizaje continuo</span>
+            <span>Análisis y resolución de problemas</span>
+            <span>Atención al detalle</span>
+            <span>Proactividad</span>
+            <span>Trabajo en equipo (Scrum)</span>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia" class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">Experiencia</p>
+          <h2>Dónde he trabajado.</h2>
+        </div>
+        <ol class="timeline">
+          <li class="reveal">
+            <span class="when">09/2025 – actualidad</span>
+            <div class="tl-body">
+              <h3>Desarrollador Web y de Sistemas</h3>
+              <p class="org">Tilín FL · Corporación Plop</p>
+              <ul>
+                <li>Sitio web corporativo con hero animado, catálogo de productos, botón flotante de WhatsApp y diseño responsive.</li>
+                <li>Sistema interno de inventario, ventas y facturación: stock, asignación de mercadería por vendedor, cierre diario con aprobación y reportes en Excel.</li>
+                <li>Control de entradas y salidas en una operación de más de 10 000 unidades vendidas en 4 meses.</li>
+                <li>Más de 40 campañas en Meta Ads: de 0 a +7 000 seguidores, con costo por conversación entre S/0.77 y S/1.47.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="when">2026 – actualidad</span>
+            <div class="tl-body">
+              <h3>Desarrollador Full-Stack · Sistema de cobros</h3>
+              <p class="org">Estaciones de servicio (grifos) · Pucallpa</p>
+              <ul>
+                <li>API REST con NestJS, Prisma y PostgreSQL para una red de cinco estaciones, con pagos por QR dinámico (Yape) confirmados por webhook.</li>
+                <li>Aplicación de punto de venta offline-first y módulo de cuadre por turno contra el totalizador del surtidor.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="when">06/2026 – actualidad</span>
+            <div class="tl-body">
+              <h3>Asesoría administrativa y servicios digitales</h3>
+              <p class="org">Multiservicios Seijas E.I.R.L.</p>
+              <ul>
+                <li>Organización de procesos y documentación interna.</li>
+                <li>Campañas en Meta Ads para negocios clientes, como la tienda de mascotas Pet Love.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="when">08/2024 – 02/2025</span>
+            <div class="tl-body">
+              <h3>Desarrollador Web · Freelance</h3>
+              <p class="org">Lima</p>
+              <ul>
+                <li>Interfaces en Angular que consumen APIs REST hechas con .NET Core y Entity Framework.</li>
+                <li>Sitios responsivos para marcas locales (Coffrut, Sinsonte), publicados en GitHub Pages.</li>
+                <li>Mantenimiento de aplicaciones, documentación de código y reportes de avance.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="when">08/2024 – 02/2025</span>
+            <div class="tl-body">
+              <h3>Soporte técnico y desarrollo web</h3>
+              <p class="org">Juan Pablo II · Pucallpa</p>
+              <ul>
+                <li>Frontend del portal de servicios médicos con Vue.js, integrado a una API REST en Express.js.</li>
+                <li>Autenticación con JWT, gestión de usuarios y soporte técnico remoto.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
       </div>
     </section>
 
@@ -117,11 +188,18 @@
               <span class="status ok"><i></i>En uso</span>
             </div>
             <h3>Tilín FL</h3>
-            <p>Sistema de inventario y facturación para Corporación Plop Perú. Control de stock, emisión de boletas y facturas, revisión diaria de ventas, reportes por fechas y copias de seguridad locales con Excel y comprobantes.</p>
+            <p>Sitio corporativo y sistema interno de inventario, ventas y facturación electrónica para Corporación Plop. Incluye cierre diario con aprobación, reportes en Excel y copias de seguridad.</p>
             <ul class="chips"><li>Next.js</li><li>Prisma</li><li>NextAuth</li><li>Nubefact</li></ul>
-            <div class="card-links">
-              <a href="https://github.com/NotSeijas?tab=repositories" target="_blank" rel="noopener">Código en GitHub →</a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-top">
+              <span class="tag">Backend · Pagos</span>
+              <span class="status ok"><i></i>En uso</span>
             </div>
+            <h3>Sistema de cobros para grifos</h3>
+            <p>API REST para una red de cinco estaciones de servicio en Pucallpa, con pagos por QR dinámico (Yape) confirmados por webhook, POS offline-first y cuadre por turno.</p>
+            <ul class="chips"><li>NestJS</li><li>Prisma</li><li>PostgreSQL</li><li>Webhooks</li></ul>
           </article>
 
           <article class="card reveal">
@@ -130,16 +208,25 @@
               <span class="status wip"><i></i>En desarrollo</span>
             </div>
             <h3>MachineGuard</h3>
-            <p>Plataforma de monitoreo de maquinaria industrial con dispositivos IoT, desarrollada en equipo para el curso de IoT de la UPC. Me encargo del procesamiento en el borde (edge) y de la trazabilidad y calidad de los datos.</p>
+            <p>Plataforma de monitoreo de maquinaria industrial con IoT, hecha en equipo para el curso de IoT de la UPC. Me encargo del procesamiento en el borde (edge) y de la trazabilidad y calidad de los datos.</p>
             <ul class="chips"><li>Edge API</li><li>Core API</li><li>IoT</li><li>Trazabilidad</li></ul>
-            <div class="card-links">
-              <a href="https://github.com/NotSeijas?tab=repositories" target="_blank" rel="noopener">Código en GitHub →</a>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-top">
+              <span class="tag">Sitios web</span>
+              <span class="status ok"><i></i>Publicados</span>
             </div>
+            <h3>Sitios para marcas locales</h3>
+            <p>Sitios responsivos para marcas como Coffrut y Sinsonte, desplegados en GitHub Pages, además del portal médico en Vue.js para Juan Pablo II.</p>
+            <ul class="chips"><li>Angular</li><li>Vue.js</li><li>HTML/CSS</li><li>GitHub Pages</li></ul>
           </article>
 
           <article class="card card-more reveal">
-            <h3>Y más en GitHub</h3>
-            <p>Otros repositorios, prácticas y experimentos.</p>
+            <div>
+              <h3>Y más en GitHub</h3>
+              <p>Otros repositorios, prácticas y experimentos.</p>
+            </div>
             <a class="btn ghost" href="https://github.com/NotSeijas?tab=repositories" target="_blank" rel="noopener">Ver repositorios</a>
           </article>
         </div>
@@ -150,25 +237,25 @@
     <section id="stack" class="section">
       <div class="wrap">
         <div class="section-head reveal">
-          <p class="kicker">Stack</p>
+          <p class="kicker">Tecnologías</p>
           <h2>Herramientas con las que trabajo.</h2>
         </div>
         <div class="stack reveal">
           <div class="stack-col">
             <h3>Frontend</h3>
-            <ul><li>HTML &amp; CSS</li><li>JavaScript</li><li>TypeScript</li><li>React</li><li>Next.js</li></ul>
+            <ul><li>HTML5 · CSS3</li><li>JavaScript · TypeScript</li><li>Angular · Vue.js · React</li><li>Diseño responsive · Figma</li></ul>
           </div>
           <div class="stack-col">
             <h3>Backend</h3>
-            <ul><li>Node.js</li><li>API Routes</li><li>Prisma</li><li>NextAuth</li><li>REST</li></ul>
+            <ul><li>.NET Core · Express · NestJS</li><li>APIs REST · JWT · Webhooks</li><li>PostgreSQL · Prisma</li></ul>
           </div>
           <div class="stack-col">
-            <h3>Datos &amp; IoT</h3>
-            <ul><li>SQL</li><li>Edge computing</li><li>Sensores</li><li>Trazabilidad</li></ul>
+            <h3>Despliegue</h3>
+            <ul><li>Git · GitHub</li><li>Docker</li><li>Vercel</li><li>GitHub Pages</li></ul>
           </div>
           <div class="stack-col">
-            <h3>Herramientas</h3>
-            <ul><li>Git &amp; GitHub</li><li>VS Code</li><li>Facturación electrónica</li><li>Backups</li></ul>
+            <h3>Certificaciones</h3>
+            <ul><li>React Web Dev · freeCodeCamp</li><li>Git y GitHub Profesional · Platzi</li><li>Fundamentos de Scrum · CertiProf</li><li>Google Cloud Digital Leader</li><li>Microsoft Azure Data Fundamentals</li></ul>
           </div>
         </div>
       </div>
@@ -186,14 +273,15 @@
               <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
               diegoseijascorp@gmail.com
             </a>
-            <a class="btn ghost" href="https://github.com/NotSeijas" target="_blank" rel="noopener">github.com/NotSeijas</a>
+            <a class="btn ghost" href="https://www.linkedin.com/in/Diego-Antonio-Seijas-V%C3%A1squez" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn ghost" href="https://github.com/NotSeijas" target="_blank" rel="noopener">GitHub</a>
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
+<footer class="footer">
     <div class="wrap">
       <span>© <span id="year"></span> Diego Seijas</span>
       <span>Hecho a mano con HTML, CSS y JS · Lima, Perú</span>

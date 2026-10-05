@@ -61,11 +61,15 @@
 
   // Contadores
   document.querySelectorAll('[data-count]').forEach(function (el) {
-    var target = +el.dataset.count, n = 0;
-    var t = setInterval(function () {
-      n += 1; el.textContent = n;
-      if (n >= target) clearInterval(t);
-    }, 350);
+    var target = +el.dataset.count, suffix = el.dataset.suffix || '', start = null;
+    function fmt(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' ') + suffix; }
+    function step(ts) {
+      if (start === null) start = ts;
+      var p = Math.min((ts - start) / 1400, 1);
+      el.textContent = fmt(Math.round(target * (1 - Math.pow(1 - p, 3))));
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
   });
 
   document.getElementById('year').textContent = new Date().getFullYear();
