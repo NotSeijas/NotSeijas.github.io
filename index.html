@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diego Seijas · Desarrollador Full Stack</title>
+  <meta name="description" content="Portafolio de Diego Seijas (NotSeijas): desarrollo web full stack con Next.js, Prisma y sistemas IoT. Lima, Perú.">
+  <meta name="theme-color" content="#0b0d12">
+  <meta property="og:title" content="Diego Seijas · Desarrollador Full Stack">
+  <meta property="og:description" content="Sistemas web reales: inventario, facturación electrónica e IoT.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%236366f1'/><text x='50' y='68' font-size='56' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='white'>D</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="glow glow-a" aria-hidden="true"></div>
+  <div class="glow glow-b" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a href="#inicio" class="brand" aria-label="Inicio"><span class="brand-mark">D</span><span class="brand-name">Diego Seijas</span></a>
+    <nav class="links" id="links" aria-label="Principal">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#stack">Stack</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="theme" aria-label="Cambiar tema" title="Cambiar tema">
+        <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menu" aria-label="Abrir menú" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="dot"></span> Disponible para prácticas y proyectos</p>
+          <h1>Hola, soy <span class="grad">Diego Seijas</span>.<br>Construyo software que se usa de verdad.</h1>
+          <p class="lead">Desarrollador full stack en Lima, Perú. Diseño y programo sistemas web completos, desde la base de datos hasta la interfaz, y trabajo también con dispositivos IoT.</p>
+          <div class="cta">
+            <a class="btn primary" href="#proyectos">Ver proyectos
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn ghost" href="https://github.com/NotSeijas" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a10.9 10.9 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+              GitHub
+            </a>
+          </div>
+          <ul class="stats">
+            <li><strong data-count="2">0</strong><span>sistemas en producción o en desarrollo activo</span></li>
+            <li><strong>Full&nbsp;stack</strong><span>web, API y base de datos</span></li>
+            <li><strong>IoT</strong><span>edge computing y trazabilidad</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-card reveal" aria-hidden="true">
+          <div class="term">
+            <div class="term-bar"><i></i><i></i><i></i><span>notseijas.ts</span></div>
+<pre><code><span class="c">// quién soy, en código</span>
+<span class="k">const</span> <span class="v">diego</span> = {
+  <span class="p">rol</span>: <span class="s">"Full Stack Developer"</span>,
+  <span class="p">ciudad</span>: <span class="s">"Lima, Perú"</span>,
+  <span class="p">stack</span>: [<span class="s">"Next.js"</span>, <span class="s">"Prisma"</span>, <span class="s">"TypeScript"</span>],
+  <span class="p">también</span>: [<span class="s">"IoT"</span>, <span class="s">"Edge"</span>, <span class="s">"APIs"</span>],
+  <span class="p">aprendiendo</span>: <span class="k">true</span>,
+  <span class="p">disponible</span>: <span class="k">true</span>,
+};<span class="cursor"></span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi" class="section">
+      <div class="wrap about">
+        <div class="section-head reveal">
+          <p class="kicker">Sobre mí</p>
+          <h2>Me gusta resolver problemas reales con código limpio.</h2>
+        </div>
+        <div class="about-body reveal">
+          <p>Estudio en la <strong>UPC</strong> y desarrollo sistemas para negocios reales: manejo de inventario, facturación electrónica y monitoreo de maquinaria con IoT. Prefiero entregar algo que funcione y se pueda mantener antes que algo que solo se vea bien en una demo.</p>
+          <p>Me muevo cómodo en todo el ciclo: modelar datos, construir la API, cuidar la interfaz y dejar el sistema respaldado y documentado.</p>
+          <div class="pills">
+            <span>Orientado a producto</span>
+            <span>Código mantenible</span>
+            <span>Trabajo en equipo</span>
+            <span>Aprendizaje continuo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">Proyectos</p>
+          <h2>Lo que he construido.</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-top">
+              <span class="tag">Sistema web</span>
+              <span class="status ok"><i></i>En uso</span>
+            </div>
+            <h3>Tilín FL</h3>
+            <p>Sistema de inventario y facturación para Corporación Plop Perú. Control de stock, emisión de boletas y facturas, revisión diaria de ventas, reportes por fechas y copias de seguridad locales con Excel y comprobantes.</p>
+            <ul class="chips"><li>Next.js</li><li>Prisma</li><li>NextAuth</li><li>Nubefact</li></ul>
+            <div class="card-links">
+              <a href="https://github.com/NotSeijas?tab=repositories" target="_blank" rel="noopener">Código en GitHub →</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-top">
+              <span class="tag">IoT · Backend</span>
+              <span class="status wip"><i></i>En desarrollo</span>
+            </div>
+            <h3>MachineGuard</h3>
+            <p>Plataforma de monitoreo de maquinaria industrial con dispositivos IoT, desarrollada en equipo para el curso de IoT de la UPC. Me encargo del procesamiento en el borde (edge) y de la trazabilidad y calidad de los datos.</p>
+            <ul class="chips"><li>Edge API</li><li>Core API</li><li>IoT</li><li>Trazabilidad</li></ul>
+            <div class="card-links">
+              <a href="https://github.com/NotSeijas?tab=repositories" target="_blank" rel="noopener">Código en GitHub →</a>
+            </div>
+          </article>
+
+          <article class="card card-more reveal">
+            <h3>Y más en GitHub</h3>
+            <p>Otros repositorios, prácticas y experimentos.</p>
+            <a class="btn ghost" href="https://github.com/NotSeijas?tab=repositories" target="_blank" rel="noopener">Ver repositorios</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section id="stack" class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">Stack</p>
+          <h2>Herramientas con las que trabajo.</h2>
+        </div>
+        <div class="stack reveal">
+          <div class="stack-col">
+            <h3>Frontend</h3>
+            <ul><li>HTML &amp; CSS</li><li>JavaScript</li><li>TypeScript</li><li>React</li><li>Next.js</li></ul>
+          </div>
+          <div class="stack-col">
+            <h3>Backend</h3>
+            <ul><li>Node.js</li><li>API Routes</li><li>Prisma</li><li>NextAuth</li><li>REST</li></ul>
+          </div>
+          <div class="stack-col">
+            <h3>Datos &amp; IoT</h3>
+            <ul><li>SQL</li><li>Edge computing</li><li>Sensores</li><li>Trazabilidad</li></ul>
+          </div>
+          <div class="stack-col">
+            <h3>Herramientas</h3>
+            <ul><li>Git &amp; GitHub</li><li>VS Code</li><li>Facturación electrónica</li><li>Backups</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <div class="wrap">
+        <div class="contact reveal">
+          <p class="kicker">Contacto</p>
+          <h2>¿Trabajamos juntos?</h2>
+          <p>Estoy abierto a prácticas, trabajo freelance y colaboraciones. Escríbeme y respondo pronto.</p>
+          <div class="cta center">
+            <a class="btn primary" href="mailto:diegoseijascorp@gmail.com">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              diegoseijascorp@gmail.com
+            </a>
+            <a class="btn ghost" href="https://github.com/NotSeijas" target="_blank" rel="noopener">github.com/NotSeijas</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <span>© <span id="year"></span> Diego Seijas</span>
+      <span>Hecho a mano con HTML, CSS y JS · Lima, Perú</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
